@@ -8,18 +8,25 @@ $(document).ready(function(){
 
 
 //***Back End Logic***//
+if (isNaN(userInput)){
+  alert("Please enter a number.");
+}
 var inputArray = [];
 for (var i = 0; i <= userInput; i += 1){
   inputArray.push(i);
   inputArray.forEach(function(i){
     if(inputArray[i] === 0){
-      inputArray[i] = "Beep!";
+      inputArray[i] = "Beep! ";
     }
     else if (inputArray[i] === 1){
-      inputArray[i] = "Boop!";
+      inputArray[i] = "Boop! ";
+    }
+    else if ((inputArray[i] % 3) === 0) {
+      inputArray[i] = "I'm sorry Dave, I'm afraid I can't do that. "
     }
     $("#result").text(inputArray);
   });
+  console.log(inputArray);
 }
 // }
 // $("#result").text(inputArray);
