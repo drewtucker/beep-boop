@@ -16,8 +16,11 @@ if (isNaN(userInput)) {
 //Logic for numbers containing '0'//
 else if (userInput === 0){
   $("#result").text("Beep!");
-
-};
+}
+//Logic for numbers containing '1'//
+else if (userInput === 1){
+  $("#result").text("Boop!");
+}
 
 
 
