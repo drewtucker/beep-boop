@@ -21,6 +21,9 @@ else if (userInput === 0){
 else if (userInput === 1){
   $("#result").text("Boop!");
 }
+else if ((userInput % 3) === 0) {
+  $("#result").text("I'm sorry Dave, i'm afraid I can't do that.");
+}
 
 
 
