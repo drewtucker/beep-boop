@@ -13,16 +13,17 @@ $(document).ready(function(){
 if (isNaN(userInput)) {
   alert("Please enter a number!");
 }
-//Logic for numbers containing '0'//
-else if (userInput === 0){
-  $("#result").text("Beep!");
+//Logic for numbers divisible by 3//
+else if ((userInput % 3) === 0) {
+  $("#result").text("I'm sorry Dave, i'm afraid I can't do that.");
 }
 //Logic for numbers containing '1'//
 else if (userInput === 1){
   $("#result").text("Boop!");
 }
-else if ((userInput % 3) === 0) {
-  $("#result").text("I'm sorry Dave, i'm afraid I can't do that.");
+//Logic for numbers containing '0'//
+else if (userInput === 0){
+  $("#result").text("Beep!");
 }
 
 
