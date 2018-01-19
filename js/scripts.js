@@ -12,13 +12,18 @@ if (isNaN(userInput)){
   alert("Please enter a number.");
 }
 var inputArray = [];
+var unUsedNumbers = ["2", "4", "5", "7", "8",]
 for (var i = 0; i <= userInput; i += 1){
   inputArray.push(i);
   inputArray.forEach(function(i){
-    if(inputArray[i] === 0){
+    console.log(inputArray.toString());
+    if(inputArray.toString().includes("0")){
       inputArray[i] = "Beep! ";
     }
-    else if (inputArray[i] === 1){
+    else if (inputArray.toString().includes(unUsedNumbers[i])) {
+      inputArray[i] = inputArray[i];
+    }
+    else if (inputArray.toString().includes("1")){
       inputArray[i] = "Boop! ";
     }
     else if ((inputArray[i] % 3) === 0) {
@@ -26,7 +31,6 @@ for (var i = 0; i <= userInput; i += 1){
     }
     $("#result").text(inputArray);
   });
-  console.log(inputArray);
 }
 // }
 // $("#result").text(inputArray);
