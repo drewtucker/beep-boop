@@ -6,7 +6,7 @@
 
 ## Description
 
-A webpage created with HTML and CSS, and using Javascript to return a range of numbers to the user once the user has inputted a number. The returned range will replace certain numbers with "Beep!" or "Boop!" or "I'm sorry Dave, I'm afraid I can't do that." based on certain exceptions detailed below.
+A webpage created with HTML and CSS, and using Javascript to return a range of numbers to the user once the user has inputted a number. The returned range will replace certain numbers with "Beep!" or "Boop!" or "I'm sorry Dave, I'm afraid I can't do that." based on certain criteria detailed below.
 
 
 ### Specs
