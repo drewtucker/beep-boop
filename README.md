@@ -10,7 +10,7 @@ A webpage created with HTML and CSS, and using Javascript to return a range of n
 
 
 ### Specs
-| **Program does nothing with non-numerical units** | User input: "A" | Output: "Please enter a number." |
+| **Program does not accept numbers over 99** | User input: "100" | Output: "Please enter a number between 1 - 99." |
 
 | **Program replaces any number containing a '0' with the word "Beep!"** | User input: "0" | Output: "Beep!" |
 
