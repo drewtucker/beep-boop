@@ -18,9 +18,9 @@ A webpage created with HTML and CSS, and using Javascript to return a range of n
 
 | **Program replaces any number divisible by '3' with the phrase "I'm sorry Dave, I'm afraid I can't do that."**| User input: "9" | Output: "I'm sorry Dave, I'm afraid I can't do that." |
 
-| **Program hierarchy checks first if divisible by '3', then checks if it contains a '1', then checks if it contains a '0'. It will then apply the first condition that is met. ** | User input: "120" | Output: "I'm sorry Dave, I'm afraid I can't do that." |
+| **Program hierarchy checks first if divisible by '3', then checks if it contains a '1', then checks if it contains a '0'. It will then apply the first condition that is met.** | User input: "120" | Output: "I'm sorry Dave, I'm afraid I can't do that." |
 
-| **Program returns a range of numbers from 0 to the number inputted by the user, replacing valid numbers with the exceptions listed above.**| User input: "10" | Page Displays: "Beep!", "Boop!", 2, "I'm sorry Dave, I'm afraid I can't do that.", 4, 5, "I'm sorry Dave, I'm afraid I can't do that.", 7, 8, "I'm sorry Dave, I'm afraid I can't do that.", "Boop!" |
+| **Program returns a range of numbers from 0 to the number inputted by the user(up to 99), replacing valid numbers with the exceptions listed above.**| User input: "10" | Page Displays: "Beep!", "Boop!", 2, "I'm sorry Dave, I'm afraid I can't do that.", 4, 5, "I'm sorry Dave, I'm afraid I can't do that.", 7, 8, "I'm sorry Dave, I'm afraid I can't do that.", "Boop!" |
 
 | **Program will clear and replace previously displayed range of numbers once a new number has been inputted by the user.** |
 
@@ -31,7 +31,7 @@ A webpage created with HTML and CSS, and using Javascript to return a range of n
 3. Enter a number into the field provided and receive a translated "beep-boop" return.
 
 ## Known Bugs
-* No known bugs at this time.
+* Max input for the user to enter is currently 99.
 
 ## Technologies Used
 * HTML
