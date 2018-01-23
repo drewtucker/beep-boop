@@ -27,6 +27,7 @@ for (var i = 0; i <= userInput; i += 1){
     }
 
     $("#result").text(inputArray);
+    $("#result").show([50], ["ease"]);
 
 }
 });

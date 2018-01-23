@@ -1,7 +1,13 @@
 body {
-  background-color: floralwhite;
+  background-color: slateGray;
+
 }
 
 .jumbotron {
-  background-color: lightsteelblue;
+  background-image: url("../robot-background.jpg");
+  color: white;
+}
+
+#result {
+  display: none;
 }
